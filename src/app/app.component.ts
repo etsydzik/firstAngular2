@@ -7,6 +7,7 @@ import {Component} from '@angular/core';
     <fa-other></fa-other>
     <fa-another></fa-another>
     <fa-property-binding></fa-property-binding>
+    <fa-databinding></fa-databinding>
   `,
   styles: [`
     h1 {

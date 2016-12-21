@@ -13,4 +13,7 @@ export class AppComponent {
 
   delete = false;
 
+  test = 'Starting value';
+
+  boundValue = 1000;
 }

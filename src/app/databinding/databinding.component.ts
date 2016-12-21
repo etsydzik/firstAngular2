@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'fa-databinding',
@@ -12,6 +12,5 @@ export class DatabindingComponent {
 
   onTest() {
     return true;
-}
-
+  }
 }

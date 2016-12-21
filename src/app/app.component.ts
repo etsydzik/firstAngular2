@@ -6,7 +6,6 @@ import {Component} from '@angular/core';
     <h1>Inline template</h1>
     <fa-other></fa-other>
     <fa-another></fa-another>
-    <fa-property-binding></fa-property-binding>
     <fa-databinding></fa-databinding>
   `,
   styles: [`

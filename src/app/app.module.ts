@@ -1,13 +1,14 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {FormsModule} from '@angular/forms';
+import {HttpModule} from '@angular/http';
 
-import { AppComponent } from './app.component';
-import { OtherComponent } from './other/other.component';
-import { AnotherComponent } from './other/another.component';
-import { PropertyBindingComponent } from './other/property-binding.component';
-import { DatabindingComponent } from './databinding/databinding.component';
+import {AppComponent} from './app.component';
+import {OtherComponent} from './other/other.component';
+import {AnotherComponent} from './other/another.component';
+import {PropertyBindingComponent} from './other/property-binding.component';
+import {DatabindingComponent} from './databinding/databinding.component';
+import { EventBindingComponent } from './databinding/event-binding.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DatabindingComponent } from './databinding/databinding.component';
     OtherComponent,
     AnotherComponent,
     PropertyBindingComponent,
-    DatabindingComponent
+    DatabindingComponent,
+    EventBindingComponent
   ],
   imports: [
     BrowserModule,
@@ -25,4 +27,5 @@ import { DatabindingComponent } from './databinding/databinding.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
